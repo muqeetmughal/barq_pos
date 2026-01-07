@@ -1,0 +1,25 @@
+{
+  "name": "barq_pos",
+  "version": "1.0.0",
+  "description": "**BarqPOS** is a fast, modern Point of Sale system built on top of the **Frappe Framework and ERPNext**, designed for high-speed retail environments where checkout speed and simplicity matter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && yarn install",
+    "dev": "cd frontend && yarn dev",
+    "build": "cd frontend && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muqeetmughal/barq_pos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/muqeetmughal/barq_pos/issues"
+  },
+  "homepage": "https://github.com/muqeetmughal/barq_pos#readme",
+  "dependencies": {}
+}
